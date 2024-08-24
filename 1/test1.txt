@@ -1,0 +1,3 @@
+HI
+this is a text file
+text is originally from test1.txt 
