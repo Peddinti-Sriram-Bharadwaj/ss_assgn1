@@ -1,0 +1,2 @@
+Hi
+This is an existing file, not created in the terminal
