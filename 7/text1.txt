@@ -1,0 +1,4 @@
+Hi
+this is text1
+if not, this is a copied file
+
