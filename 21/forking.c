@@ -18,7 +18,7 @@ printf("this is the pid of parent process: %d\n", getpid());
 printf("this is the pid of child process: %d\n", pid);
 }
 
-
+sleep(30);
 
 return 0;
 }
