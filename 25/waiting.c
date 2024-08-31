@@ -1,3 +1,11 @@
+/*
+Name : 25
+Author : Sriram Bharadwaj
+Description : 
+Write a program to create three child processes. The parent should wait for a particular child (use waitpid system call). 
+Date :- Aug 31 2024
+*/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
@@ -39,3 +47,11 @@ printf("child 1 exited with status %d\n", WEXITSTATUS(status));
 
 return 0;
 }
+
+/*
+This is child process 1
+I am the parent proces
+This is child process 2
+This is child process 3
+child 1 exited with status 0
+*/

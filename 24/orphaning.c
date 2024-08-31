@@ -1,3 +1,11 @@
+/*
+Name : 24
+Author : Sriram Bharadwaj
+Description : 
+Write a program to create an orphan process. 
+Date :- Aug 31 2024
+*/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
@@ -21,3 +29,9 @@ printf("I am now exiting to orphan my child\n");
 
 return 0;
 }
+/*
+this is the parent process
+I am now exiting to orphan my child
+this is the child process
+I am now an orphan. my new parent is 1
+*/

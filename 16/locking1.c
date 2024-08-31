@@ -1,3 +1,13 @@
+/*
+Name : 16
+Author : Sriram Bharadwaj
+Description : 
+Write a program to perform mandatory locking. 
+a. Implement write lock 
+b. Implement read lock 
+Date :- Aug 31 2024
+*/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -57,3 +67,13 @@ printf("the file is unlocked from read\n");
 printf("%s\n", buff2);
 return 0;
 }
+
+/*
+lock availible for writing
+file1
+the file is unlocked after writing
+read lock availible
+5
+the file is unlocked from read
+file1
+*/

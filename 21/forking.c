@@ -1,3 +1,12 @@
+/*
+Name : 21
+Author : Sriram Bharadwaj
+Description : 
+Write a program, call fork and print the parent and child process id. 
+Date :- Aug 30 2024
+*/
+
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -22,3 +31,10 @@ sleep(30);
 
 return 0;
 }
+
+/*
+this is the pid of parent process: 1147
+this is the pid of child process: 1148
+this is the pid of child process : 1148
+this is the current pid: 1147
+*/

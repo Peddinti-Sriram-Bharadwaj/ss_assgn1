@@ -1,3 +1,11 @@
+/*
+Name : 28
+Author : Sriram Bharadwaj
+Description : 
+Write a program to get maximum and minimum real time priority. 
+Date :- Aug 31 2024
+*/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
@@ -16,3 +24,7 @@ printf("SCHED_FIFO :- min = %d, max = %d\n", fifomax, fifomin);
 printf("SCHED_RR :- min = %d, max = %d\n", rrmax, rrmin);
 return 0;
 }
+/*
+SCHED_FIFO :- min = 47, max = 15
+SCHED_RR :- min = 47, max = 15
+*/

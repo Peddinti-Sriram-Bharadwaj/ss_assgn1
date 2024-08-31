@@ -1,3 +1,13 @@
+/*
+Name : 26
+Author : Sriram Bharadwaj
+Description : 
+Write a program to execute an executable program. 
+a. use some executable program 
+b. pass some input to an executable program. (for example execute an executable of $./a.out name) 
+Date :- Aug 31 2024
+*/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
@@ -13,3 +23,6 @@ perror("execl");
 
 return 0;
 }
+/*
+this is edited, launched from the C program
+*/

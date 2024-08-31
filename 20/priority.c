@@ -1,3 +1,11 @@
+/*
+Name : 20
+Author : Sriram Bharadwaj
+Description : 
+Find out the priority of your running program. Modify the priority with nice command. 
+Date :- Aug 30 2024
+*/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
@@ -18,3 +26,8 @@ printf("the new priority of process with pid %d is %d\n", pid, (int) priority);
 
 return 0;
 }
+
+/*
+the priority of process with pid 1120 is 0
+the new priority of process with pid 1120 is 10
+*/

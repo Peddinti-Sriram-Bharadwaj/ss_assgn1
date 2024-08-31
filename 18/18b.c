@@ -1,3 +1,14 @@
+/*
+Name : 18
+Author : Sriram Bharadwaj
+Description : 
+18. Write a program to perform Record locking. 
+a. Implement write lock 
+b. Implement read lock 
+Create three records in a file. Whenever you access a particular record, first lock it then modify/access to avoid race condition. 
+Date :- Aug 31 2024
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
@@ -49,6 +60,12 @@ fl.l_type = F_UNLCK;
 fcntl(fd, F_SETLK, &fl);
 close(fd);
 return 0;
-
-
 }
+
+/*
+Enter the record number: 1
+Train number: 1
+Tickets count: 98
+*/
+
+
