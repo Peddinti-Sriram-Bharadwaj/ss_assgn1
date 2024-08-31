@@ -1,3 +1,10 @@
+/*
+Name : 29
+Author : Sriram Bharadwaj
+Description : 
+Write a program to get scheduling policy and modify the scheduling policy (SCHED_FIFO, SCHED_RR). 
+Date :- Aug 31 2024
+*/
 #include <stdio.h>
 #include <sched.h>
 #include <unistd.h>
@@ -34,3 +41,14 @@ sched_setscheduler(pid, policy, &param);
 
 return 0;
 }
+
+/*
+Before changing policy:
+Current scheduling policy: SCHED_OTHER
+Changing to SCHED_FIFO:
+Scheduling policy changed to Current scheduling policy: SCHED_FIFO
+Current scheduling policy: SCHED_FIFO
+Changing to SCHED_RR:
+Scheduling policy changed to Current scheduling policy: SCHED_RR
+Current scheduling policy: SCHED_RR
+*/
