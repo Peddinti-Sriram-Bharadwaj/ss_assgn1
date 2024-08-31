@@ -1,3 +1,9 @@
+/*
+Name : 4.c
+Author : Sriram Bharadwaj
+Description : Write a program to open an existing file with read write mode. Try O_EXCL flag also. 
+Date :- Aug 25 2024
+*/
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -29,4 +35,8 @@ printf("error couldn't open file with O_EXCL flag");
 return 0;
 
 }
+/*
+4
+file opened successfilly with O_EXCL flag
+*/
 

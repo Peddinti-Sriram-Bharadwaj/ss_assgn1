@@ -1,3 +1,16 @@
+/*
+Name : 11
+Author : Sriram Bharadwaj
+Description : 
+
+
+ 11. Write a program to open a file, duplicate the file descriptor and append the file with both the descriptors and check whether the file is updated properly or not. 
+a. use dup 
+b. use dup2 
+c. use fcntl 
+Date :- Aug 29 2024
+*/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -28,4 +41,17 @@ printf("%d\n", nr);
 write(fd4,buff,25);
 printf("%d\n",nr);
 return 0;
+
 }
+/*
+the value of fd1 is :3
+the value of fd2 is :4
+the value of fd3 is :3
+the new value of fd3 is :3
+the new value of fd1 is :3
+the value of fd4 is : 5
+the new value of fd2 is 4
+25
+25
+25
+*/

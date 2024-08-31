@@ -1,3 +1,13 @@
+/*
+Name : 14
+Author : Sriram Bharadwaj
+Description : 
+14 Write a program to find the type of a file. 
+a. Input should be taken from command line. 
+b. program should be able to identify any type of a file. 
+Date :- Aug 29 2024
+*/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
@@ -26,3 +36,8 @@ default: printf("unknown\n"); break;
 
 return 0;
 }
+
+/*
+hi.txt
+regular file
+*/

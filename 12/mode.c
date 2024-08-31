@@ -1,3 +1,11 @@
+/*
+Name : 12
+Author : Sriram Bharadwaj
+Description : 
+ Write a program to find out the opening mode of a file. Use fcntl. 
+Date :- Aug 29 2024
+*/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -22,3 +30,8 @@ if(mode == 2)
 printf("read and write mode\n");
 return 0;
 }
+
+/*
+2
+read and write mode
+*/

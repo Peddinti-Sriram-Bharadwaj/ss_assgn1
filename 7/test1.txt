@@ -1,0 +1,8 @@
+/*
+Name : 7.c
+Author : Sriram Bharadwaj
+Description : Write a program to copy file1 into file2 ($cp file1 file2). 
+Date :- Aug 26 2024
+
+$cp test1.txt text.txt
+*/

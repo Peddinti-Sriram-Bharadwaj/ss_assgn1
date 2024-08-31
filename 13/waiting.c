@@ -1,4 +1,12 @@
 #include <sys/types.h>
+/*
+Name : 13
+Author : Sriram Bharadwaj
+Description : 
+13. Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to verify whether the data is available within 10 seconds or not (check in $man 2 select). 
+Date :- Aug 29 2024
+*/
+
 #include <sys/stat.h>
 #include <sys/select.h>
 #include <fcntl.h>
@@ -25,3 +33,8 @@ fflush(stdout);
 close(0);
 return 0;
 }
+
+/*
+hi
+data found
+*/
