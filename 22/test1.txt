@@ -1,0 +1,1 @@
+written from parent processwritten from child process
